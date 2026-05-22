@@ -99,27 +99,23 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar — left: copyright · center: Wehense attribution */}
+        {/* Bottom bar */}
         <div
-          className="grid grid-cols-[1fr_auto_1fr] items-center pt-6"
+          className="flex flex-row items-center justify-between gap-4 pt-6"
           style={{ borderTop: "1px solid rgba(255,255,255,.06)" }}
         >
-          <p className="text-[12.5px] text-q-subtle">
-            © 2026 Qwispr.
-          </p>
-          <p className="text-[12.5px] text-q-subtle text-center">
-            A{" "}
+          <p className="text-[12.5px] text-q-subtle">© 2026 Qwispr.</p>
+          <p className="text-[12.5px] text-q-subtle text-right">
             <Link
               href="https://www.wehense.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-q-subtle underline underline-offset-2"
+              className="wehense-gradient font-semibold transition-opacity duration-200 hover:opacity-85"
             >
               Wehense
             </Link>{" "}
             Labs product.
           </p>
-          <div />
         </div>
       </div>
     </footer>

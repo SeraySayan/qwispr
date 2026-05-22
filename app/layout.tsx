@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   title: "Qwispr — Know What to Say Next",
   description:
     "Qwispr listens to your live calls and gives you real-time AI guidance, so you always know what to ask, say, or clarify next.",
+  icons: {
+    icon: [{ url: "/qwispr-favicon.png", type: "image/png" }],
+    shortcut: "/qwispr-favicon.png",
+    apple: "/qwispr-favicon.png",
+  },
   openGraph: {
     title: "Qwispr — Know What to Say Next",
     description:
